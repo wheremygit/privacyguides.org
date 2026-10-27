@@ -287,6 +287,13 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 - [x] Select **All Browsing** or **Private Browsing**
 
+    <details class="warning" markdown>
+    <summary>May break Custom/System DNS</summary>
+
+    If you are using a custom DNS or DHCP provided DNS address, **Advanced Tracking and Fingerprinting Protection** may break that setup. Thus enabling this might break custom DNS records on your network and network based DNS sinkhole.
+
+    </details>
+
 ##### Privacy Preserving Ad Measurement
 
 - [ ] Disable **Privacy Preserving Ad Measurement**
